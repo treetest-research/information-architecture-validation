@@ -1,0 +1,33 @@
+order,identifier,status,included in analysis,started at,ip,device,os,browser,location,time taken,questions answered,tasks completed,tasks skipped,tasks successful
+2,,abandoned,false,2024-01-18 13:02:44,,desktop,OS X,Chrome,SK,00:00:34,18.2%,0.0%,0.0%,0.0%
+3,,completed,true,2024-01-18 13:29:21,,desktop,Windows,Chrome,GB,00:07:30,72.7%,100.0%,0.0%,54.5%
+4,,completed,true,2024-01-18 13:30:11,,desktop,OS X,Chrome,GB,00:08:19,75.0%,100.0%,0.0%,72.7%
+5,,completed,true,2024-01-18 13:32:54,,desktop,Windows,Chrome,GB,00:07:02,72.7%,100.0%,0.0%,63.6%
+6,,completed,true,2024-01-18 13:36:46,,desktop,Windows,Chrome,GB,00:12:07,81.8%,100.0%,0.0%,45.5%
+7,,completed,true,2024-01-18 13:37:06,,desktop,Windows,Opera,GB,00:30:58,70.5%,100.0%,0.0%,63.6%
+9,,abandoned,false,2024-01-24 14:52:50,,desktop,OS X,Chrome,SK,00:01:10,22.7%,9.1%,0.0%,0.0%
+10,,completed,true,2024-01-24 14:58:18,,desktop,OS X,Chrome,GB,00:11:48,93.2%,100.0%,0.0%,63.6%
+11,,completed,true,2024-01-24 15:00:21,,desktop,Windows,Chrome,GB,00:05:09,72.7%,100.0%,0.0%,63.6%
+12,,completed,true,2024-01-24 15:01:34,,desktop,OS X,Chrome,GB,00:13:02,84.1%,100.0%,0.0%,54.5%
+13,,completed,true,2024-01-24 15:05:56,,desktop,Windows,Edge,GB,00:06:35,72.7%,100.0%,0.0%,54.5%
+14,,completed,true,2024-01-24 15:05:54,,desktop,Windows,Chrome,GB,00:08:32,72.7%,100.0%,0.0%,63.6%
+15,,completed,true,2024-01-24 15:06:24,,desktop,OS X,Chrome,GB,00:08:55,72.7%,100.0%,0.0%,72.7%
+16,,completed,true,2024-01-24 15:07:18,,desktop,Windows,Chrome,GB,00:06:49,72.7%,100.0%,0.0%,54.5%
+17,,completed,true,2024-01-24 15:07:22,,desktop,Windows,Chrome,GB,00:07:24,72.7%,100.0%,0.0%,81.8%
+18,,completed,true,2024-01-24 15:08:39,,desktop,Windows,Chrome,GB,00:11:24,75.0%,100.0%,0.0%,63.6%
+19,,completed,true,2024-01-24 15:08:53,,desktop,Windows,Chrome,GB,00:23:48,100.0%,100.0%,0.0%,54.5%
+20,,completed,true,2024-01-24 15:10:28,,desktop,Chrome OS,Chrome,US,00:13:42,84.1%,100.0%,0.0%,72.7%
+21,,completed,true,2024-01-24 15:13:47,,desktop,Windows,Chrome,GB,00:05:14,70.5%,100.0%,0.0%,36.4%
+22,,completed,true,2024-01-24 15:13:58,,desktop,OS X,Chrome,GB,00:13:12,86.4%,100.0%,0.0%,54.5%
+23,,completed,true,2024-01-24 15:14:12,,desktop,Windows,Chrome,US,00:07:45,75.0%,100.0%,0.0%,81.8%
+24,,completed,true,2024-01-24 15:14:12,,desktop,OS X,Chrome,GB,00:07:05,72.7%,100.0%,0.0%,54.5%
+25,,completed,true,2024-01-24 15:15:45,,desktop,OS X,Firefox,GB,00:09:14,77.3%,100.0%,0.0%,72.7%
+26,,completed,true,2024-01-24 15:15:43,,desktop,Windows,Chrome,GB,00:05:33,81.8%,100.0%,0.0%,45.5%
+27,,completed,true,2024-01-24 15:16:54,,desktop,Windows,Chrome,GB,00:06:41,72.7%,100.0%,0.0%,54.5%
+28,,completed,true,2024-01-24 15:17:14,,desktop,Windows,Chrome,US,00:08:44,72.7%,100.0%,0.0%,54.5%
+29,,completed,true,2024-01-24 15:17:23,,desktop,OS X,Chrome,US,00:06:27,72.7%,100.0%,0.0%,72.7%
+30,,completed,true,2024-01-24 15:18:13,,desktop,Windows,Firefox,GB,00:16:59,77.3%,100.0%,0.0%,63.6%
+31,,completed,true,2024-01-24 15:18:22,,desktop,Windows,Firefox,GB,00:15:03,84.1%,100.0%,0.0%,81.8%
+32,,completed,true,2024-01-24 15:20:27,,desktop,Windows,Chrome,GB,00:13:43,72.7%,100.0%,0.0%,72.7%
+33,,completed,true,2024-01-24 15:25:04,,desktop,Windows,Chrome,GB,00:12:35,72.7%,100.0%,0.0%,81.8%
+34,,completed,true,2024-01-24 15:27:38,,desktop,OS X,Chrome,GB,00:21:22,72.7%,100.0%,0.0%,27.3%

@@ -1,0 +1,32 @@
+respondent,Q1: How old are you?,Q2: Which gender do you identify as?,Q3: What is the highest education level you have completed?,"Q4: What is your personal income per year, after tax?",Q5: How often do you browse the web?,Q6: How often do you visit online magazines or news websites?,"Q7: If you visit online magazines or news websites, provide some examples: (original)","Q7: If you visit online magazines or news websites, provide some examples: (grouped)","Q8: You may love pizza or ice cream. But when we ask you what you would order in the restaurant, you need to choose a salad."
+2,18 - 27,Man,High school diploma,"£20,000 - £29,999",Few times a day,Daily,theguardian.com,theguardian.com,Salad
+3,18 - 27,Man,Technical/community college,"£0 - £9,999",For the major part of the day,From time to time (weekly),bbc news,bbc news,Salad
+4,18 - 27,Man,Graduate degree,"£40,000 - £49,999",For the major part of the day,Daily,"Telegraph, The economist, Guardian, Al Jazeera, NYT","Telegraph, The economist, Guardian, Al Jazeera, NYT",Salad
+5,18 - 27,Man,Technical/community college,"£0 - £9,999",Few times a day,Never,Did not answer,Did not answer,Salad
+6,18 - 27,Man,Undergraduate degree,"£0 - £9,999",Few times a day,From time to time (weekly),"Devrim Magazine, Gelenek Magazine","Devrim Magazine, Gelenek Magazine",Salad
+8,18 - 27,Woman,Graduate degree,"£30,000 - £39,999",For the major part of the day,From time to time (weekly),"Mail online, The sun, BBC news","Mail online, The sun, BBC news",Salad
+9,18 - 27,Woman,Undergraduate degree,"£20,000 - £29,999",For the major part of the day,From time to time (weekly),"BBC, the sun","BBC, the sun",Salad
+10,18 - 27,Woman,Undergraduate degree,"£30,000 - £39,999",For the major part of the day,From time to time (weekly),"Refinery29, The Guardian, Dailymail ","Refinery29, The Guardian, Dailymail ",Salad
+11,18 - 27,Woman,Undergraduate degree,"£0 - £9,999",Few times a day,Very sporadically (monthly),"bbc, new york times","bbc, new york times",Salad
+12,18 - 27,Woman,Undergraduate degree,"£30,000 - £39,999",Few times a day,From time to time (weekly),BBC,BBC,Salad
+13,28 - 37,Woman,Undergraduate degree,"£20,000 - £29,999",Few times a day,From time to time (weekly),"sky news, daily mail","sky news, daily mail",Salad
+14,38 - 47,Woman,Graduate degree,"£50,000 - £74,999",Few times a day,Daily,BBC,BBC,Salad
+15,28 - 37,Woman,High school diploma,"£0 - £9,999",Few times a day,From time to time (weekly),"daily mail ,sun ","daily mail ,sun ",Salad
+16,28 - 37,Man,Undergraduate degree,"£40,000 - £49,999",Few times a day,Very sporadically (monthly),Did not answer,Did not answer,Salad
+17,28 - 37,Woman,High school diploma,"£10,000 - £19,999",Few times a day,From time to time (weekly),"bbc news, digital spy, daily mail","bbc news, digital spy, daily mail",Salad
+18,28 - 37,Woman,Undergraduate degree,No income,For the major part of the day,From time to time (weekly),the guardian the new york times,the guardian the new york times,Salad
+19,38 - 47,Woman,Technical/community college,"£10,000 - £19,999",Few times a day,Never,Did not answer,Did not answer,Salad
+20,28 - 37,Man,Graduate degree,"£30,000 - £39,999",For the major part of the day,Very sporadically (monthly),medium,medium,Salad
+21,38 - 47,Man,Undergraduate degree,"£30,000 - £39,999",Few times a day,Daily,"BBC, Pistonheads.com","BBC, Pistonheads.com",Salad
+23,48 - 57,Woman,Secondary education,"£20,000 - £29,999",For the major part of the day,Daily,"BBC News, SKY News, Daily Mirror, Daily Mail, Delicious Magazine, The Spectator","BBC News, SKY News, Daily Mirror, Daily Mail, Delicious Magazine, The Spectator",Salad
+24,28 - 37,Man,Secondary education,"£20,000 - £29,999",Few times a day,Daily,Did not answer,Did not answer,Salad
+25,38 - 47,Woman,Graduate degree,"£40,000 - £49,999",Few times a day,From time to time (weekly),"BBC News, Sky News","BBC News, Sky News",Salad
+26,38 - 47,Man,Undergraduate degree,"£30,000 - £39,999",Few times a day,Daily,"BBC, GCN, ","BBC, GCN, ",Salad
+27,48 - 57,Man,Undergraduate degree,"£10,000 - £19,999",For the major part of the day,Daily,bbc,BBC,Salad
+28,48 - 57,Man,High school diploma,"£30,000 - £39,999",Few times a day,Daily,"Daily Telegraph, BBC News, What's Up With That","Daily Telegraph, BBC News, What's Up With That",Salad
+29,48 - 57,Woman,Undergraduate degree,"£10,000 - £19,999",Few times a day,From time to time (weekly),the Guardian sky news,the Guardian sky news,Salad
+30,58+,Woman,High school diploma,"£20,000 - £29,999",Few times a day,Daily,bbc,BBC,Salad
+31,38 - 47,Man,High school diploma,"£40,000 - £49,999",For the major part of the day,Daily,"medscape, NATO, CBRNE, newsnow","medscape, NATO, CBRNE, newsnow",Salad
+32,58+,Man,Undergraduate degree,"£10,000 - £19,999",Few times a day,Daily,bbc guardian sky,bbc guardian sky,Salad
+33,28 - 37,Man,Undergraduate degree,"More than £100,000",For the major part of the day,Daily,"bbc, the guardian, the telegraph, the economist","bbc, the guardian, the telegraph, the economist",Salad
+34,28 - 37,Man,Graduate degree,"£20,000 - £29,999",For the major part of the day,Daily,"Aeon, The New York Times, PsychologyToday","Aeon, The New York Times, PsychologyToday",Salad

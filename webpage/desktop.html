@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Life Magazine</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body main, .custom-submenu{
+            position: relative;
+        }
+        .custom-submenu .dropdown-menu {
+            top: 0;
+            left: 99%;
+            margin-top: 0px;
+        }
+        .custom-submenu .dropdown-toggle:after {
+            transform: rotate(-90deg);
+            position: absolute;
+            right: 10px;
+            top: 18px;
+        }
+        .dropdown a {
+            line-height: 2;
+            padding-right: 30px;
+        }
+        li > a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script type="text/javascript">(function(u,x,t,w,e,a,k,s){a=function(v){try{u.setItem(t+e,v)}catch(e){}v=JSON.parse(v);for(k=0;k<v.length;k++){s=x.createElement("script");s.text="(function(u,x,t,w,e,a,k){a=u[e]=function(){a.q.push(arguments)};a.q=[];a.t=+new Date;a.c=w;k=x.createElement('script');k.async=1;k.src=t;x.getElementsByTagName('head')[0].appendChild(k)})(window,document,'"+v[k].u+"',"+JSON.stringify(v[k].c)+",'"+v[k].g+"')";x.getElementsByTagName("head")[0].appendChild(s)}};try{k=u.getItem(t+e)}catch(e){}if(k){return a(k)}k=new XMLHttpRequest;k.onreadystatechange=function(){if(k.readyState==4&&k.status==200)a(k.responseText)};k.open("POST",w+e);k.send(x.URL)})(sessionStorage,document,"uxt:","https://api.uxtweak.com/snippet/","b4cdba62-ae73-4069-ab97-5d2c5a999863");</script>
+</head>
+<body>
+
+    <header class="container">
+        <div class="row flex-nowrap justify-content-between align-items-center py-3">
+            <div class="col-9 col-md-4 ">Tuesday, 2/13/2023, 9:56am,  <img src="assets/brightness-high-fill.svg" style="width: 15px; padding-bottom: 3px;"> 13°C</div>
+            <div class="col-4 text-center fw-bold d-none d-md-block" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;">My Magazine</div>
+            <div class="col-3 col-md-4 text-end d-none d-md-block">
+                <button class="btn btn-outline-primary me-3">SUBSCRIBE</button>
+                <span class="d-none d-md-inline"><img src="assets/person-circle.svg" style="padding-bottom: 2px;"> <a class="link-secondary">Login</a></span>
+            </div> 
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        
+        <div class="container">
+            <a class="navbar-brand d-block d-md-none" href ="#" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;">Lifestyle Magazine</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" ><span class="navbar-toggler-icon"></span></button>
+          
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav navbar-right">
+            
+                    <!-- trending -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="trending">Trending</a>
+                        <ul class="dropdown-menu">
+                            <li class="no-menu level-1">
+                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="trending->our-picks"><span>Our picks</span></a>
+                            </li>
+                            <li class="no-menu level-1">
+                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="trending->latest-articles"><span>Latest articles</span></a>
+                            </li>
+                            <li class="no-menu level-1">
+                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="trending->popular-articles"><span>Popular articles</span></a>
+                            </li>
+                        </ul>
+                    </li>
+            
+                    <!-- entertainment -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="entertainment">Entertainment</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="entertainment->music"><span>Music</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->music->charts"><span>Charts</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->music->artists"><span>Artists</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->music->reviews"><span>Reviews</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->music->top-picks"><span>Top picks</span></a>
+                                    </li>
+                                    <li class="dropdown custom-submenu level-2">
+                                        <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="entertainment->music->genres"><span>Genres</span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->music->genres->classical"><span>Classical</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->music->genres->popular"><span>Popular</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->music->genres->rock"><span>Rock</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->music->genres->electronic"><span>Electronic</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->music->genres->jazz"><span>Jazz</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->music->genres->hip-hop"><span>Hip-hop</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->music->concerts"><span>Concerts</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="entertainment->literature"><span>Literature</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->literature->reviews"><span>Reviews</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->literature->nonfiction"><span>Nonfiction</span></a>
+                                    </li>
+                                    <li class="dropdown custom-submenu level-2">
+                                        <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="entertainment->literature->fiction"><span>Fiction</span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->literature->fiction->science-fiction"><span>Science fiction</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->literature->fiction->fantasy"><span>Fantasy</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->literature->fiction->adventure"><span>Adventure</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->literature->fiction->horror"><span>Horror</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->literature->fiction->mystery"><span>Mystery</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->literature->poetry"><span>Poetry</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->literature->for-children"><span>For children</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="entertainment->films"><span>Films</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->upcoming-releases"><span>Upcoming releases</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->reviews"><span>Reviews</span></a>
+                                    </li>
+                                    <li class="dropdown custom-submenu level-2">
+                                        <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="entertainment->films->genres"><span>Genres</span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->genres->science-fiction"><span>Science fiction</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->genres->fantasy"><span>Fantasy</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->genres->adventure"><span>Adventure</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->genres->nonfiction"><span>Nonfiction</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->genres->mystery"><span>Mystery</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->genres->action"><span>Action</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->genres->comedy"><span>Comedy</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->genres->horror"><span>Horror</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->genres->musicals"><span>Musicals</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->genres->thriller"><span>Thriller</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->genres->documentary"><span>Documentary</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->interviews"><span>Interviews</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->directors"><span>Directors</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->awards"><span>Awards</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->festivals"><span>Festivals</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->trailers"><span>Trailers</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->films->popular-actors"><span>Popular actors</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="entertainment->tv-shows"><span>TV shows</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->tv-shows->top-rated"><span>Top rated</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->tv-shows->awards"><span>Awards</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->tv-shows->reality-shows"><span>Reality shows</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->tv-shows->game-shows"><span>Game shows</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="entertainment->games"><span>Games</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->games->board-games"><span>Board games</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->games->computer-games"><span>Computer games</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->games->virtual-reality"><span>Virtual reality</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->games->top-picks"><span>Top picks</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->games->game-reviews"><span>Game reviews</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="entertainment->cinema"><span>Cinema</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->cinema->blockbuster-movies"><span>Blockbuster movies</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->cinema->cinemas-near-you"><span>Cinemas near you</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="entertainment->cinema->top-picks"><span>Top picks</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+            
+                    <!-- hobbies -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="hobbies">Hobbies</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="hobbies->travel"><span>Travel</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->travel->insurance"><span>Insurance</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->travel->trip-planning"><span>Trip planning</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->travel->budget"><span>Budget</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->travel->culture-travelling"><span>Culture travelling</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->travel->culinarytravelling"><span>Culinarytravelling</span></a>
+                                    </li>
+                                    <li class="dropdown custom-submenu level-2">
+                                        <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="hobbies->travel->destinations"><span>Destinations</span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->travel->destinations->europe"><span>Europe</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->travel->destinations->asia"><span>Asia</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->travel->destinations->africa"><span>Africa</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->travel->tours"><span>Tours</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->travel->historical-sights"><span>Historical sights</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="hobbies->sports"><span>Sports</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown custom-submenu level-2">
+                                        <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="hobbies->sports->team-sports"><span>Team sports</span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->team-sports->soccer-(football)"><span>Soccer (football)</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->team-sports->basketball"><span>Basketball</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->team-sports->baseball"><span>Baseball</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->team-sports->volleyball"><span>Volleyball</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->team-sports->ice-hockey"><span>Ice hockey</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->team-sports->softball"><span>Softball</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->team-sports->rugby"><span>Rugby</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown custom-submenu level-2">
+                                        <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="hobbies->sports->individual-sports"><span>Individual sports</span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->individual-sports->tennis"><span>Tennis</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->individual-sports->athletics"><span>Athletics</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->individual-sports->badminton"><span>Badminton</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->individual-sports->bowling"><span>Bowling</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->individual-sports->skiing"><span>Skiing</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->individual-sports->golf"><span>Golf</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->individual-sports->cycling"><span>Cycling</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->individual-sports->figure-skating"><span>Figure Skating</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->individual-sports->boxing"><span>Boxing</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->individual-sports->swimming"><span>Swimming</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->individual-sports->gymnastics"><span>Gymnastics</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->individual-sports->snowboarding"><span>Snowboarding</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->olympics"><span>Olympics</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->world-championships"><span>World championships</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->sports->athletics"><span>Athletics</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="hobbies->food"><span>Food</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->food->restaurants"><span>Restaurants</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->food->restaurant-reviews"><span>Restaurant reviews</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->food->tips"><span>Tips</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->food->recipes"><span>Recipes</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->food->cooking"><span>Cooking</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->food->baking"><span>Baking</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->food->food-trends"><span>Food trends</span></a>
+                                    </li>
+                                    <li class="dropdown custom-submenu level-2">
+                                        <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="hobbies->food->regional-cuisine"><span>Regional cuisine</span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->food->regional-cuisine->vegan-recipes"><span>Vegan recipes</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->food->regional-cuisine->asian-cuisine"><span>Asian cuisine</span></a>
+                                            </li>
+                                            <li class="no-menu level-3">
+                                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->food->regional-cuisine->mexican-cuisine"><span>Mexican cuisine</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->food->street-food"><span>Street food</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->food->beverages"><span>Beverages</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->food->wine-and-spirits"><span>Wine and spirits</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="hobbies->beauty"><span>Beauty</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->beauty->fashion-shows"><span>Fashion shows</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->beauty->events"><span>Events</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->beauty->makeup"><span>Makeup</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->beauty->clothes"><span>Clothes</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->beauty->weddings"><span>Weddings</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="hobbies->household"><span>Household</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->household->garden"><span>Garden</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->household->pets"><span>Pets</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->household->furniture"><span>Furniture</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->household->outdoors"><span>Outdoors</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->household->renovations"><span>Renovations</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->household->diy"><span>DIY</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->household->interior-design"><span>Interior design</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->household->decorations"><span>Decorations</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="hobbies->garden"><span>Garden</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->garden->plants"><span>Plants</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->garden->flowers"><span>Flowers</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->garden->tools"><span>Tools</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->garden->seasonal-tips"><span>Seasonal tips</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->garden->trees"><span>Trees</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="hobbies->outdoors"><span>Outdoors</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->outdoors->motoring"><span>Motoring</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->outdoors->fishing-and-boating"><span>Fishing and Boating</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->outdoors->camping"><span>Camping</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->outdoors->hunting"><span>Hunting</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="hobbies->art"><span>Art</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->art->drawing"><span>Drawing</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->art->painting"><span>Painting</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->art->photography"><span>Photography</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->art->pottery"><span>Pottery</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->art->sculpture"><span>Sculpture</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->art->needlework"><span>Needlework</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="hobbies->crafts"><span>Crafts</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->crafts->sewing"><span>Sewing</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->crafts->pottery"><span>Pottery</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->crafts->beading"><span>Beading</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="hobbies->crafts->printmaking"><span>Printmaking</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+            
+                    <!-- culture -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="culture">Culture</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="culture->art"><span>Art</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->art->painting"><span>Painting</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->art->sculpture"><span>Sculpture</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->art->photography"><span>Photography</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->art->graphic-design"><span>Graphic design</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->art->street-art"><span>Street art</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->art->museums"><span>Museums</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->art->galleries"><span>Galleries</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->art->movies-and-tv-shows"><span>Movies and TV shows</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->art->modern-art"><span>Modern art</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->art->classical-art"><span>Classical art</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->art->digital-art"><span>Digital art</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="culture->theatre"><span>Theatre</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->theatre->drama"><span>Drama</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->theatre->comedy"><span>Comedy</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->theatre->musicals"><span>Musicals</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->theatre->opera"><span>Opera</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->theatre->dance"><span>Dance</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="culture->fashion"><span>Fashion</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->fashion->accessories"><span>Accessories</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->fashion->makeup"><span>Makeup</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->fashion->new-collections"><span>New collections</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->fashion->fashion-shows"><span>Fashion shows</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->fashion->events"><span>Events</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->fashion->latest-trends"><span>Latest trends</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->fashion->footwear"><span>Footwear</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->fashion->sustainable-fashion"><span>Sustainable fashion</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="culture->architecture"><span>Architecture</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->architecture->urban"><span>Urban</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->architecture->interior"><span>Interior</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->architecture->industrial"><span>Industrial</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->architecture->commercial"><span>Commercial</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="culture->history"><span>History</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->history->ancient"><span>Ancient</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->history->medieval"><span>Medieval</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->history->modern"><span>Modern</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->history->world"><span>World</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->history->europe"><span>Europe</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="culture->history->america"><span>America</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+            
+                    <!-- science -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="science">Science</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="science->health-and-medicine"><span>Health and Medicine</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->health-and-medicine->treatments"><span>Treatments</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->health-and-medicine->mental-health"><span>Mental health</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->health-and-medicine->research"><span>Research</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->health-and-medicine->innovations"><span>Innovations</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="science->physics"><span>Physics</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->physics->mechanics"><span>Mechanics</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->physics->quantum-mechanics"><span>Quantum mechanics</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->physics->optics"><span>Optics</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->physics->relativity"><span>Relativity</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->physics->electromagnetism"><span>Electromagnetism</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->physics->thermodynamics"><span>Thermodynamics</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->physics->nuclear-physics"><span>Nuclear physics</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="science->biology"><span>Biology</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->biology->zoology"><span>Zoology</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->biology->botany"><span>Botany</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->biology->ecology"><span>Ecology</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->biology->genetics"><span>Genetics</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->biology->diseases"><span>Diseases</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->biology->evolution"><span>Evolution</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->biology->microbiology"><span>Microbiology</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="no-menu level-1">
+                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->chemistry"><span>Chemistry</span></a>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="science->technology"><span>Technology</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->technology->social-media"><span>Social media</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->technology->gadgets"><span>Gadgets</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->technology->computers-and-internet"><span>Computers and internet</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->technology->mobile-phones"><span>Mobile phones</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->technology->software-and-games"><span>Software and games</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->technology->artificial-intelligence"><span>Artificial intelligence</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->technology->robotics"><span>Robotics</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->technology->biotechnology"><span>Biotechnology</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->technology->nanotechnology"><span>Nanotechnology</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="science->environment"><span>Environment</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->environment->climate-change"><span>Climate change</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->environment->global-warming"><span>Global warming</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->environment->sustainability"><span>Sustainability</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->environment->renewable-energy"><span>Renewable energy</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->environment->pollution-and-waste"><span>Pollution and waste</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->environment->recycling"><span>Recycling</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->environment->green-technologies"><span>Green technologies</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="science->earth-and-space"><span>Earth and Space</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->earth-and-space->solar-system"><span>Solar system</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->earth-and-space->the-universe"><span>The universe</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->earth-and-space->geology"><span>Geology</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->earth-and-space->astronomy"><span>Astronomy</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->earth-and-space->space-exploration"><span>Space exploration</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->earth-and-space->meteorology"><span>Meteorology</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->earth-and-space->archeology"><span>Archeology</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="science->nature"><span>Nature</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->nature->documentaries"><span>Documentaries</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->nature->animals"><span>Animals</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->nature->plants"><span>Plants</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->nature->weather"><span>Weather</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="science->nature->energy-and-resources"><span>Energy and resources</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+            
+                    <!-- society -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="society">Society</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="society->politics"><span>Politics</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->politics->current-events"><span>Current events</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->politics->us"><span>US</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->politics->world"><span>World</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->politics->opinions"><span>Opinions</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->politics->elections"><span>Elections</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->politics->debates"><span>Debates</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->politics->international-relations"><span>International relations</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->politics->public-policy"><span>Public policy</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->politics->political-parties"><span>Political parties</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="society->economics"><span>Economics</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->economics->business"><span>Business</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->economics->stock-market"><span>Stock market</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->economics->personal-finances"><span>Personal finances</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->economics->advertising"><span>Advertising</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->economics->startups"><span>Startups</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->economics->trade"><span>Trade</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->economics->banking"><span>Banking</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="society->law"><span>Law</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->law->criminal-law"><span>Criminal law</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->law->civil-law"><span>Civil law</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->law->international-law"><span>International law</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->law->human-rights"><span>Human rights</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->law->legal-systems-and-processes"><span>Legal systems and processes</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->law->legal-rights-and-obligations"><span>Legal rights and obligations</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="society->education"><span>Education</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->education->primary"><span>Primary</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->education->secondary"><span>Secondary</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->education->higher-education"><span>Higher education</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->education->homeschooling"><span>Homeschooling</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->education->e-learning"><span>E-learning</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->education->special-education"><span>Special education</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="society->health"><span>Health</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->health->health-issues"><span>Health issues</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->health->fitness"><span>Fitness</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->health->nutrition"><span>Nutrition</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->health->aging"><span>Aging</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->health->mental-health"><span>Mental health</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="society->family-and-relationships"><span>Family and Relationships</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->family-and-relationships->parenting"><span>Parenting</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->family-and-relationships->marriage"><span>Marriage</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->family-and-relationships->dating"><span>Dating</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="society->sociology"><span>Sociology</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->sociology->demography"><span>Demography</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->sociology->age"><span>Age</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->sociology->gender"><span>Gender</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->sociology->lgbt+"><span>LGBT+</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->sociology->race"><span>Race</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->sociology->crime"><span>Crime</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->sociology->multiculturalism"><span>Multiculturalism</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="society->religion"><span>Religion</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->religion->christianity"><span>Christianity</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->religion->judaism"><span>Judaism</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->religion->islam"><span>Islam</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->religion->buddhism"><span>Buddhism</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->religion->hinduism"><span>Hinduism</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="no-menu level-1">
+                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="society->psychology"><span>Psychology</span></a>
+                            </li>
+                        </ul>
+                    </li>
+            
+                    <!-- lifestyle -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="lifestyle">Lifestyle</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="lifestyle->finances"><span>Finances</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="lifestyle->finances->budgeting"><span>Budgeting</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="lifestyle->finances->investing"><span>Investing</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="lifestyle->finances->retirement"><span>Retirement</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="lifestyle->personal-development"><span>Personal development</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="lifestyle->personal-development->mindfulness"><span>Mindfulness</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="lifestyle->personal-development->self-care"><span>Self-care</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="lifestyle->personal-development->self-growth"><span>Self-growth</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="lifestyle->personal-development->career"><span>Career</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="lifestyle->personal-development->creativity"><span>Creativity</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown custom-submenu level-1">
+                                <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="lifestyle->fitness"><span>Fitness</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="lifestyle->fitness->workout"><span>Workout</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="lifestyle->fitness->diet"><span>Diet</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="lifestyle->fitness->yoga"><span>Yoga</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="lifestyle->fitness->pilates"><span>Pilates</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="lifestyle->fitness->crossfit"><span>Crossfit</span></a>
+                                    </li>
+                                    <li class="no-menu level-2">
+                                        <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="lifestyle->fitness->martial-arts"><span>Martial arts</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+            
+                    <!-- about-us -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="about-us">About us</a>
+                        <ul class="dropdown-menu">
+                            <li class="no-menu level-1">
+                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="about-us->contact"><span>Contact</span></a>
+                            </li>
+                            <li class="no-menu level-1">
+                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="about-us->subscription"><span>Subscription</span></a>
+                            </li>
+                            <li class="no-menu level-1">
+                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="about-us->careers"><span>Careers</span></a>
+                            </li>
+                            <li class="no-menu level-1">
+                                <a class="dropdown-item" role="button" data-bs-toggle="modal" href="#endModal"  id="about-us->privacy-policy"><span>Privacy policy</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card mb-4">
+                        <a href="#!"><img class="card-img-top" src="assets/banner-wide.jpg" alt="..." /></a>
+                        <div class="card-body">
+                            <div class="small text-muted">February 1, 2023</div>
+                            <h2 class="card-title">Best vacation tips for this spring</h2>
+                            <p class="card-text">Are sun and sand, snow or city lights among your spring break ideas? My family is usually itching to get away from home by the time spring break rolls around. If you plan to go away for spring break, we know when to book for the best deals. </p>
+                            <a class="btn btn-primary" href="#!">Read more <i class="bi-arrow-right"></i></a>
+                        </div>
+                    </div>                   
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="assets/article1.jpg" alt="..." /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">February 2, 2023</div>
+                                    <h2 class="card-title h4">Healthy recipes for a wholesome breakfast</h2>
+                                    <p class="card-text">Let us introduce our new picks of healthy reciped to make you shine in the morning!</p>
+                                    <a class="btn btn-primary" href="#!">Read more <i class="bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="assets/article3.jpg" alt="..." /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">February 6, 2023</div>
+                                    <h2 class="card-title h4">Museums and galleries you did not know about.</h2>
+                                    <p class="card-text">Visit these 10 new exhibitions.</p>
+                                    <a class="btn btn-primary" href="#!">Read more <i class="bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="assets/article2.jpg" alt="..." /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">February 3, 2023</div>
+                                    <h2 class="card-title h4">Planning a trip to Europe?</h2>
+                                    <p class="card-text">No worries, we have got you covered. We have prepared 100 sights in 25 different countries for you to get inspired by.</p>
+                                    <a class="btn btn-primary" href="#!">Read more <i class="bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="assets/article4.jpg" alt="..." /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">January 29, 2023</div>
+                                    <h2 class="card-title h4">New space rocket launched yesterday</h2>
+                                    <p class="card-text">Check outthe video from launch.</p>
+                                    <a class="btn btn-primary" href="#!">Read more <i class="bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-header">Ads</div>
+                        <div class="card-body">
+                            <div style="width: 100%;">
+                                <img id="ad" src="assets/ad.jpg" style="width: 100%;  border-radius: 10px;">
+                                <div class="h5 pt-2">New phone flagship already in stores.</div>
+                                <div class="card-subtitle">Check out the <a href="#!">availability</a>.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-header">Most read articles</div>
+                        <div class="card-body">
+                            <div class="d-flex mb-3 align-items-center">
+                                <img src="assets/banner.jpg" class="col-3 rounded float-start img-thumbnail me-4" alt="...">
+                                <div class="col-9 pe-3">
+                                    <h6 class="media-title"><a href="#" data-abc="true">Best vacation tips for this spring</a></h6>
+                                    <img src="assets/train-front.svg"> Traveling
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3 align-items-center">
+                                <img src="assets/article2.jpg" class="col-3 rounded float-start img-thumbnail me-4" alt="...">
+                                <div class="col-9 pe-3">
+                                    <h6 class="media-title"><a href="#" data-abc="true">Planning a trip to Europe?</a></h6>
+                                    <img src="assets/train-front.svg"> Traveling
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3 align-items-center">
+                                <img src="assets/article1.jpg" class="col-3 rounded float-start img-thumbnail me-4" alt="...">
+                                <div class="col-9 pe-3">
+                                    <h6 class="media-title"><a href="#" data-abc="true">Healthy recipes for a wholesome breakfast</a></h6>
+                                    <img src="assets/egg-fried.svg"> Food
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img src="assets/article4.jpg" class="col-3 rounded float-start img-thumbnail me-4" alt="...">
+                                <div class="col-9 pe-3">
+                                    <h6 class="media-title"><a href="#" data-abc="true">New space rocket launched yesterday</a></h6>
+                                    <img src="assets/rocket.svg"> Space
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-header">Your ad</div>
+                        <div class="card-body">This place could be your ad! Don't hesitate to contact us.</div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </main>
+
+    <div>
+        <div class="modal fade" id="endModal" tabindex="-1" role="dialog" data-bs-backdrop="static">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="endModalLabel">If you are sure about your choice, click "Done" at the bottom of your screen.</h5>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" id="changemind" class="btn btn-outline-primary" data-bs-dismiss="modal">I changed my mind</button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

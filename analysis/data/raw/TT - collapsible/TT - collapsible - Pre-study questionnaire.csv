@@ -1,0 +1,35 @@
+respondent,Q1: How old are you?,Q2: Which gender do you identify as?,Q3: What is the highest education level you have completed?,"Q4: What is your personal income per year, after tax?",Q5: How often do you browse the web?,Q6: How often do you visit online magazines or news websites?,"Q7: If you visit online magazines or news websites, provide some examples: (original)","Q7: If you visit online magazines or news websites, provide some examples: (grouped)","Q8: You may love pizza or ice cream. But when we ask you what you would order in the restaurant, you need to choose a salad."
+2,18 - 27,Man,Undergraduate degree,"£30,000 - £39,999",Few times a day,From time to time (weekly),Did not answer,Did not answer,Salad
+3,18 - 27,Man,Undergraduate degree,"£10,000 - £19,999",For the major part of the day,From time to time (weekly),"guardian, bbc news","guardian, bbc news",Salad
+4,18 - 27,Man,Graduate degree,"£10,000 - £19,999",Few times a day,Never,Did not answer,Did not answer,Salad
+5,18 - 27,Man,Undergraduate degree,"£0 - £9,999",Few times a day,From time to time (weekly),Did not answer,Did not answer,Hamburger
+7,18 - 27,Man,Graduate degree,"£20,000 - £29,999",For the major part of the day,Never,Did not answer,Did not answer,Salad
+9,28 - 37,Man,Graduate degree,"£40,000 - £49,999",For the major part of the day,Daily,"sky news, bbc news, refinary29","sky news, bbc news, refinary29",Salad
+10,28 - 37,Man,Doctorate degree,"£20,000 - £29,999",For the major part of the day,Daily,New York Times - Financial Times,New York Times - Financial Times,Salad
+11,28 - 37,Woman,Graduate degree,"£40,000 - £49,999",Few times a day,From time to time (weekly),"guardian, new yorker","guardian, new yorker",Salad
+12,38 - 47,Woman,Graduate degree,"£30,000 - £39,999",Few times a day,Daily,"CNN, BBC, Huck Magazine, Sandwich Magazine, Nat Geo, The Guardian, Buzzfeed","CNN, BBC, Huck Magazine, Sandwich Magazine, Nat Geo, The Guardian, Buzzfeed",Salad
+13,18 - 27,Woman,Undergraduate degree,"£20,000 - £29,999",From time to time (few times a week),Never,Did not answer,Did not answer,Salad
+14,18 - 27,Woman,Undergraduate degree,"£20,000 - £29,999",Few times a day,From time to time (weekly),"the guardian ","the guardian ",Salad
+15,18 - 27,Woman,Graduate degree,"£20,000 - £29,999",For the major part of the day,Daily,"Guardian, Atlantic, etc.","Guardian, Atlantic, etc.",Salad
+16,38 - 47,Woman,Graduate degree,"£10,000 - £19,999",Few times a day,Daily,"BBC news ","BBC news ",Salad
+17,28 - 37,Man,Technical/community college,"£30,000 - £39,999",From time to time (few times a week),From time to time (weekly),"BBC, Sky Sports, Daily Mail","BBC, Sky Sports, Daily Mail",Salad
+18,28 - 37,Woman,Undergraduate degree,"£20,000 - £29,999",For the major part of the day,Daily,Daily Mail,Daily Mail,Salad
+19,28 - 37,Woman,Undergraduate degree,"£20,000 - £29,999",Few times a day,From time to time (weekly),"bbc, metro, sky news, guardian","bbc, metro, sky news, guardian",Salad
+20,18 - 27,Woman,High school diploma,"£20,000 - £29,999",For the major part of the day,From time to time (weekly),Financial Times heat,Financial Times heat,Salad
+21,38 - 47,Woman,Undergraduate degree,"£50,000 - £74,999",For the major part of the day,Daily,"Guardian, BBC New","guardian, bbc news",Salad
+22,18 - 27,Woman,Technical/community college,"£20,000 - £29,999",Few times a day,Never,n/a,n/a,Salad
+23,28 - 37,Man,Undergraduate degree,"£40,000 - £49,999",Few times a day,Daily,bbc news,"BBC news ",Salad
+24,38 - 47,Man,Undergraduate degree,"£20,000 - £29,999",Few times a day,Never,Did not answer,Did not answer,Fish and chips
+25,28 - 37,Woman,Undergraduate degree,"£20,000 - £29,999",For the major part of the day,Daily,"dailymail, fox news, bbc","dailymail, fox news, bbc",Salad
+26,38 - 47,Man,High school diploma,"£20,000 - £29,999",Few times a day,From time to time (weekly),"Daily mail The sun, wales online","Daily mail The sun, wales online",Salad
+27,48 - 57,Woman,Doctorate degree,"£40,000 - £49,999",For the major part of the day,Daily,news.bbc.co.uk,news.bbc.co.uk,Salad
+28,38 - 47,Man,Secondary education,"£10,000 - £19,999",Few times a day,Never,Did not answer,Did not answer,Salad
+29,48 - 57,Man,Technical/community college,"£10,000 - £19,999",Few times a day,Very sporadically (monthly),Mainly music magazines.,Mainly music magazines.,Salad
+30,48 - 57,Woman,Technical/community college,"£20,000 - £29,999",Few times a day,From time to time (weekly),"guardian news, yahoo news ","guardian news, yahoo news ",Salad
+31,58+,Woman,Technical/community college,"£50,000 - £74,999",Few times a day,From time to time (weekly),BBC news,"BBC news ",Salad
+32,58+,Man,Graduate degree,"£40,000 - £49,999",For the major part of the day,From time to time (weekly),Guardian online,Guardian online,Salad
+33,48 - 57,Woman,Graduate degree,"£0 - £9,999",For the major part of the day,Very sporadically (monthly),PinkNews,PinkNews,Salad
+35,18 - 27,Woman,Undergraduate degree,"£10,000 - £19,999",For the major part of the day,From time to time (weekly),"Daily mail, yahoo news, ladbible, BBC news","Daily mail, yahoo news, ladbible, BBC news",Salad
+36,38 - 47,Man,Technical/community college,"£20,000 - £29,999",Few times a day,Daily,"Check out BBC daily,","Check out BBC daily,",Salad
+37,58+,Woman,Technical/community college,"£20,000 - £29,999",From time to time (few times a week),Very sporadically (monthly),womans own,womans own,Salad
+38,48 - 57,Man,Undergraduate degree,"£0 - £9,999",Few times a day,From time to time (weekly),BBC,BBC,Salad

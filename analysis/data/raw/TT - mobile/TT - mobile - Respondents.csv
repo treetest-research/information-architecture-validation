@@ -1,0 +1,44 @@
+order,identifier,status,included in analysis,started at,ip,device,os,browser,location,time taken,questions answered,tasks completed,tasks skipped,tasks closed,tasks successful
+6,,completed,true,2024-02-15 15:24:23,,desktop,Windows,Edge,GB,00:09:26,81.8%,100.0%,0.0%,0.0%,100.0%
+7,,completed,true,2024-02-15 15:28:31,,desktop,Windows,Edge,GB,00:09:44,70.5%,100.0%,0.0%,0.0%,100.0%
+9,,completed,true,2024-02-15 16:19:34,,smartphone,Android,Chrome,GB,00:13:19,72.7%,100.0%,0.0%,0.0%,100.0%
+10,,completed,true,2024-02-16 08:06:32,,smartphone,Android,Chrome,GB,00:09:48,79.5%,100.0%,0.0%,0.0%,100.0%
+11,,completed,true,2024-02-16 08:11:49,,smartphone,Android,Chrome,GB,00:12:46,72.7%,100.0%,0.0%,0.0%,100.0%
+12,,completed,true,2024-02-16 08:29:28,,smartphone,iOS,Chrome,GB,00:14:43,79.5%,100.0%,0.0%,0.0%,100.0%
+13,,abandoned,false,2024-02-16 09:21:47,,smartphone,Android,Chrome,GB,00:03:12,18.2%,0.0%,0.0%,0.0%,0.0%
+14,,completed,true,2024-02-16 09:31:31,,smartphone,iOS,Safari,GB,00:10:29,68.2%,90.9%,0.0%,9.1%,90.9%
+15,,abandoned,false,2024-02-21 14:52:11,,smartphone,Android,Samsung Internet,SK,00:00:43,20.5%,9.1%,0.0%,0.0%,9.1%
+16,,abandoned,false,2024-02-21 17:53:00,,smartphone,Android,Samsung Internet,SK,,0.0%,0.0%,0.0%,0.0%,0.0%
+17,,completed,true,2024-02-21 15:00:36,,smartphone,iOS,Safari,IT,00:06:39,70.5%,100.0%,0.0%,0.0%,100.0%
+18,,completed,true,2024-02-21 15:05:34,,smartphone,iOS,Safari,GB,00:06:27,75.0%,100.0%,0.0%,0.0%,100.0%
+19,,completed,true,2024-02-21 15:10:22,,smartphone,iOS,Firefox,GB,00:08:51,70.5%,100.0%,0.0%,0.0%,100.0%
+20,,completed,true,2024-02-21 15:10:29,,smartphone,iOS,Safari,GB,00:07:35,72.7%,100.0%,0.0%,0.0%,100.0%
+21,,completed,true,2024-02-21 15:10:41,,smartphone,iOS,Safari,GB,00:15:21,72.7%,100.0%,0.0%,0.0%,100.0%
+22,,completed,true,2024-02-21 15:11:19,,smartphone,Android,Chrome,GB,00:12:38,75.0%,100.0%,0.0%,0.0%,100.0%
+23,,abandoned,false,2024-02-21 18:12:00,,smartphone,Android,Chrome,GB,,47.7%,63.6%,0.0%,0.0%,63.6%
+24,,completed,true,2024-02-21 15:12:06,,smartphone,iOS,Chrome,GB,00:09:51,72.7%,100.0%,0.0%,0.0%,100.0%
+25,,completed,true,2024-02-21 15:13:24,,smartphone,iOS,Safari,GB,00:08:16,70.5%,100.0%,0.0%,0.0%,100.0%
+26,,abandoned,false,2024-02-21 18:14:00,,smartphone,Android,Firefox Mobile,GB,,15.9%,0.0%,0.0%,0.0%,0.0%
+27,,completed,true,2024-02-21 15:14:00,,smartphone,iOS,Safari,GB,00:21:54,65.9%,90.9%,0.0%,9.1%,90.9%
+28,,completed,true,2024-02-21 15:14:18,,smartphone,iOS,Safari,GB,00:07:25,72.7%,100.0%,0.0%,0.0%,100.0%
+29,,abandoned,false,2024-02-21 18:15:00,,smartphone,iOS,Safari,GB,,18.2%,0.0%,0.0%,9.1%,0.0%
+30,,completed,true,2024-02-21 15:14:42,,smartphone,iOS,Safari,GB,01:31:24,72.7%,100.0%,0.0%,0.0%,100.0%
+31,,completed,true,2024-02-21 15:15:07,,smartphone,Android,Chrome,GB,00:09:53,72.7%,100.0%,0.0%,0.0%,100.0%
+32,,completed,true,2024-02-21 15:15:13,,smartphone,Android,Chrome,GB,00:09:58,72.7%,100.0%,0.0%,0.0%,100.0%
+33,,completed,true,2024-02-21 15:15:30,,smartphone,iOS,Safari,GB,00:08:37,72.7%,100.0%,0.0%,0.0%,100.0%
+34,,completed,true,2024-02-21 15:15:52,,smartphone,iOS,Safari,GB,00:10:35,72.7%,100.0%,0.0%,0.0%,100.0%
+35,,completed,true,2024-02-21 15:15:57,,smartphone,Android,Chrome,GB,00:09:36,75.0%,100.0%,0.0%,0.0%,100.0%
+36,,completed,true,2024-02-21 15:17:09,,smartphone,iOS,Chrome,GB,00:10:41,81.8%,100.0%,0.0%,0.0%,100.0%
+37,,completed,true,2024-02-21 15:17:26,,smartphone,iOS,Chrome,GB,00:12:10,79.5%,100.0%,0.0%,0.0%,100.0%
+38,,completed,true,2024-02-21 15:17:51,,smartphone,iOS,Safari,GB,00:10:22,70.5%,100.0%,0.0%,0.0%,100.0%
+39,,completed,true,2024-02-21 15:18:31,,smartphone,Android,Chrome,GB,00:09:04,72.7%,100.0%,0.0%,0.0%,100.0%
+40,,completed,true,2024-02-21 15:19:52,,smartphone,iOS,Safari,GB,00:15:07,72.7%,100.0%,0.0%,0.0%,100.0%
+41,,completed,true,2024-02-21 15:29:47,,smartphone,Android,Chrome,GB,00:09:08,72.7%,100.0%,0.0%,0.0%,100.0%
+42,,completed,true,2024-02-21 15:30:57,,smartphone,Android,Chrome,GB,00:09:56,72.7%,100.0%,0.0%,0.0%,100.0%
+43,,completed,true,2024-02-21 15:41:28,,smartphone,Android,Chrome,GB,00:10:40,100.0%,100.0%,0.0%,0.0%,100.0%
+44,,completed,true,2024-02-21 15:44:19,,smartphone,iOS,Safari,GB,00:17:04,72.7%,100.0%,0.0%,0.0%,100.0%
+45,,completed,true,2024-02-21 16:17:09,,smartphone,iOS,Safari,GB,00:18:51,63.6%,72.7%,0.0%,27.3%,72.7%
+46,,completed,true,2024-02-22 09:29:52,,smartphone,iOS,Safari,GB,00:08:11,72.7%,100.0%,0.0%,0.0%,100.0%
+47,,completed,true,2024-02-22 09:43:18,,smartphone,iOS,Safari,GB,00:16:04,100.0%,100.0%,0.0%,0.0%,100.0%
+48,,completed,true,2024-02-22 09:59:29,,smartphone,iOS,Safari,GB,00:13:03,79.5%,100.0%,0.0%,0.0%,100.0%
+49,,completed,true,2024-02-22 10:04:28,,smartphone,Android,Chrome,GB,00:14:33,72.7%,90.9%,0.0%,9.1%,90.9%
