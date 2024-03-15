@@ -112,8 +112,12 @@ Some factors in the Desktop-intrusive (use of colors in the navigation) and Mobi
 <table>
 <tr>
 <td><img src="assets/b.png"><a href="https://www.bioderma.co.uk/">LINK</a></td>
-<td><img src="assets/m1.png"><a href="https://www.csob.sk">LINK</a></td>
-<td><img src="assets/m2.png"></td>
+</tr>
+</table>
+<table>
+<tr>
+<td height="600px"><img src="assets/m1.png" ><br><a href="https://www.csob.sk">LINK</a></td>
+<td height="600px"><img src="assets/m2.png" ><br><a href="https://www.csob.sk">LINK</a></td>
 </tr>
 </table>
 
