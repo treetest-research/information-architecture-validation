@@ -8,16 +8,16 @@ This is the official repository for the research paper [*"Validation of Informat
 
 ```bibtex
 @article{KURIC2025107740,
-title = {Validation of information architecture: Cross-methodological comparison of tree testing variants and prototype user testing},
-journal = {Information and Software Technology},
-volume = {183},
-pages = {107740},
-year = {2025},
-issn = {0950-5849},
-doi = {https://doi.org/10.1016/j.infsof.2025.107740},
-url = {https://www.sciencedirect.com/science/article/pii/S0950584925000795},
-author = {Eduard Kuric and Peter Demcak and Matus Krajcovic},
-keywords = {Information architecture, Navigation, User testing, Tree testing, Usability, Validation}
+  title = {Validation of information architecture: Cross-methodological comparison of tree testing variants and     prototype user testing},
+  journal = {Information and Software Technology},
+  volume = {183},
+  pages = {107740},
+  year = {2025},
+  issn = {0950-5849},
+  doi = {https://doi.org/10.1016/j.infsof.2025.107740},
+  url = {https://www.sciencedirect.com/science/article/pii/S0950584925000795},
+  author = {Eduard Kuric and Peter Demcak and Matus Krajcovic},
+  keywords = {Information architecture, Navigation, User testing, Tree testing, Usability, Validation}
 }
 ```
 
