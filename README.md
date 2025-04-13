@@ -2,11 +2,24 @@
 
 ## About
 
-This is the official repository for the research paper *"Validation of Information Architecture: Cross-methodological Comparison of Tree Testing Variants and Prototype User Testing"*. The work addresses differences in implementation of the Tree Testing method and assesses the capability of these variants to to reliably simulate interactions in information architecture by comparison with menu navigation in high-fidelity website prototypes.
+This is the official repository for the research paper [*"Validation of Information Architecture: Cross-methodological Comparison of Tree Testing Variants and Prototype User Testing"*](https://www.sciencedirect.com/science/article/pii/S0950584925000795). The work addresses differences in implementation of the Tree Testing method and assesses the capability of these variants to to reliably simulate interactions in information architecture by comparison with menu navigation in high-fidelity website prototypes.
 
 ### Paper citation
 
-Not published yet.
+```bibtex
+@article{KURIC2025107740,
+title = {Validation of information architecture: Cross-methodological comparison of tree testing variants and prototype user testing},
+journal = {Information and Software Technology},
+volume = {183},
+pages = {107740},
+year = {2025},
+issn = {0950-5849},
+doi = {https://doi.org/10.1016/j.infsof.2025.107740},
+url = {https://www.sciencedirect.com/science/article/pii/S0950584925000795},
+author = {Eduard Kuric and Peter Demcak and Matus Krajcovic},
+keywords = {Information architecture, Navigation, User testing, Tree testing, Usability, Validation}
+}
+```
 
 ### Contents
 
